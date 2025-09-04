@@ -55,6 +55,7 @@ def check_ddi(drug1: str = Query(..., min_length=2, max_length=50, description="
 
     conditions_and_prr = twosides_dict.get(pair)
     if conditions_and_prr:
-        return DDIResponse(interaction=True, conditions_and_prr=conditions_and_prr)
+        sorted_conditions_and_prr = dict(sorted(conditions_and_prr.items(), key=lambda items: items[1], reverse=True))
+        return DDIResponse(interaction=True, conditions_and_prr=sorted_conditions_and_prr)
 
     return DDIResponse(interaction=False)
