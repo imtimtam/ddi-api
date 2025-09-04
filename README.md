@@ -35,7 +35,7 @@ A **FastAPI** backend service that checks for shared receptor targets and **drug
 
     uvicorn main:app --reload
 
-**4. Open browser and navigate to:**
+**4. Open browser and navigate to**
 
     http://127.0.0.1:8000/docs
 
