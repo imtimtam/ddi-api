@@ -31,7 +31,7 @@ twosides_df["pair"] = twosides_df.apply(lambda x: frozenset([x["drug_1_concept_n
 twosides_dict = (twosides_df.groupby("pair").apply(lambda x: dict(zip(x["condition_concept_name"], x["PRR"]))).to_dict())
 
 # Return TargetResponse if drugs share a target
-@app.get('/check_target/', response_model=TargetResponse)
+@app.get('/targets/', response_model=TargetResponse)
 def check_target(drug1: str = Query(..., min_length=2, max_length=50, description="First drug name"),
                  drug2: str = Query(..., min_length=2, max_length=50, description="Second drug name")):
     drug1, drug2 = drug1.lower(), drug2.lower()
@@ -48,7 +48,7 @@ def check_target(drug1: str = Query(..., min_length=2, max_length=50, descriptio
     return TargetResponse(interaction=False)
 
 # Return Conditions and PRR if drugs have a DDI
-@app.get('/check_ddi/', response_model=DDIResponse)
+@app.get('/interactions/', response_model=DDIResponse)
 def check_ddi(drug1: str = Query(..., min_length=2, max_length=50, description="First drug name"),
               drug2: str = Query(..., min_length=2, max_length=50, description="Second drug name")):
     pair = frozenset([drug1.lower(), drug2.lower()])
