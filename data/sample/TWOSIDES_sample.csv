@@ -1,0 +1,201 @@
+drug_1_concept_name,drug_2_concept_name,condition_concept_name,PRR
+Lamivudine,rabeprazole,Abnormal dreams,10.0
+Ribavirin,nebivolol,Hypoxia,5.0
+zolpidem,Flecainide,Haematocrit increased,10.0
+rivastigmine,Ondansetron,Feeling abnormal,2.0
+atorvastatin,Amisulpride,Leukopenia,10.0
+Daunorubicin,Ceftazidime,Pulmonary embolism,2.5
+Spironolactone,cyclobenzaprine,Supraventricular tachycardia,20.0
+heparin,Metoclopramide,Heart rate decreased,5.0
+Lisinopril,Ranitidine,Bladder pain,10.0
+venlafaxine,Loratadine,Heart valve incompetence,5.0
+pioglitazone,Dutasteride,Strabismus,10.0
+Erythromycin,celecoxib,Upper respiratory tract infection,6.0
+Methadone,Morphine,Disability,35.0
+Buprenorphine,Alfentanil,Sepsis,10.0
+Famotidine,venlafaxine,Glycosylated haemoglobin increased,3.33333
+rosiglitazone,Imipramine,Renal impairment,10.0
+Azithromycin,Budesonide,Torsade de pointes,20.0
+Loxapine,Haloperidol,Impaired reasoning,10.0
+Alendronate,eltrombopag,Abdominal pain,2.5
+Clonazepam,Goserelin,Dysphagia,7.5
+Cefazolin,Tranexamic Acid,Trismus,5.0
+Ribavirin,Neomycin,Road traffic accident,10.0
+Guaifenesin,Methylprednisolone,Motion sickness,10.0
+prednisolone,Esomeprazole,Systemic sclerosis,5.0
+Tobramycin,Piperacillin,Adverse drug reaction,5.0
+Warfarin,Esomeprazole,Lower gastrointestinal haemorrhage,5.55556
+Sertraline,rilmenidine,Blood thyroid stimulating hormone decreased,10.0
+Simvastatin,Insulin Glargine,Hyperparathyroidism,10.0
+Vancomycin,clofarabine,Necrosis,10.0
+Oxycodone,Pramipexole,Gastroenteritis viral,5.0
+Haloperidol,Mirtazapine,Clumsiness,5.0
+Flurbiprofen,Hydroxyzine,Coma,20.0
+Aspirin,sitagliptin,Haemorrhagic disorder,10.0
+ropinirole,clopidogrel,Tongue eruption,5.0
+pioglitazone,Sotalol,Pancytopenia,6.66667
+Simvastatin,Clonazepam,Fungal skin infection,10.0
+Enoxaparin,Ceftriaxone,Tricuspid valve incompetence,8.75
+Propranolol,rofecoxib,Blood pressure decreased,2.85714
+olmesartan,Spironolactone,Aplastic anaemia,6.66667
+Buspirone,adalimumab,Small intestinal obstruction,2.0
+Solifenacin,Pravastatin,Diabetes mellitus inadequate control,5.0
+infliximab,atorvastatin,Malignant melanoma,8.57143
+Vinblastine,Lorazepam,Coordination abnormal,5.0
+Methylphenidate,ziprasidone,Hiatus hernia,3.33333
+oxybutynin,Ciprofloxacin,Progressive multifocal leukoencephalopathy,10.0
+Teriparatide,heparin,Cough,10.0
+Meclizine,Pravastatin,Haemoglobin decreased,3.33333
+Metolazone,Ranitidine,Erectile dysfunction,2.5
+Ramipril,Quinidine,Myalgia,10.0
+ezetimibe,Felodipine,Myocardial ischaemia,5.0
+Levonorgestrel,valacyclovir,IUCD complication,30.0
+Fentanyl,Etodolac,Foot fracture,10.0
+Theophylline,leflunomide,Interstitial lung disease,10.0
+Oxycodone,Promethazine,Fibroma,10.0
+Metronidazole,atorvastatin,Multiple allergies,5.0
+Carboplatin,Trimethoprim,Renal failure,2.0
+quetiapine,Ciprofloxacin,Localised oedema,20.0
+Dexamethasone,Bupropion,Impaired healing,9.09091
+Carboplatin,Metoprolol,Cerebral ischaemia,3.33333
+infliximab,Methotrexate,Bronchopneumonia,7.02703
+Budesonide,Phenytoin,Generalised oedema,5.0
+Phenobarbital,Paroxetine,Hypersomnia,3.33333
+Hydrochlorothiazide,Simvastatin,Subcutaneous haematoma,2.5
+Metolazone,Levofloxacin,Activities of daily living impaired,6.66667
+Cyclophosphamide,fludarabine,Gouty arthritis,3.33333
+Esomeprazole,Alprazolam,Idiosyncratic drug reaction,2.0
+Bupropion,rifaximin,Streptococcal bacteraemia,10.0
+Ibuprofen,Citalopram,Activities of daily living impaired,3.82353
+Carisoprodol,Losartan,Accidental overdose,5.0
+Oxycodone,zolpidem,Blood testosterone decreased,2.22222
+quinapril,Digoxin,Ulcer,6.66667
+Hydrocodone,Morphine,Breath odour,10.0
+Ibuprofen,Nitroglycerin,Body temperature increased,10.0
+Atropine,Nitrofurantoin,Injury,10.0
+Metformin,Ketoconazole,Nephrolithiasis,12.0
+Risedronate,Metoprolol,Basal cell carcinoma,10.0
+Omeprazole,Haloperidol,Post-traumatic stress disorder,20.0
+Isotretinoin,Mirtazapine,Tinnitus,5.0
+Diazepam,Meprobamate,Orthopnoea,10.0
+Teriparatide,lenalidomide,Oral candidiasis,5.0
+Dexamethasone,Vincristine,Shock,4.67742
+Metformin,mycophenolate mofetil,Viral infection,3.33333
+Cetirizine,Levofloxacin,Tooth disorder,2.0
+duloxetine,letrozole,Hypophagia,10.0
+Triazolam,Clonazepam,Restlessness,5.71429
+oxcarbazepine,Hydroxyzine,Drug abuser,2.5
+aripiprazole,Clarithromycin,Compression fracture,10.0
+olmesartan,dexlansoprazole,Blood glucose increased,2.5
+fexofenadine,Ranitidine,Primary sequestrum,20.0
+Scopolamine,Hydroxychloroquine,Sinusitis,10.0
+Esomeprazole,lenalidomide,Breast mass,5.71429
+Tramadol,torsemide,Blood chloride decreased,20.0
+Terazosin,Metoprolol,PCO2 decreased,10.0
+Amlodipine,irinotecan,Haemorrhoids,2.5
+Amoxicillin,docetaxel,Stress fracture,20.0
+topiramate,Methotrexate,Colonic polyp,5.0
+Ibuprofen,irbesartan,Ankle fracture,5.0
+Domperidone,sunitinib,Sudden death,5.0
+Hydroxyzine,Etodolac,Bronchitis,10.0
+Prednisone,Amitriptyline,Joint destruction,10.0
+Levonorgestrel,Trazodone,Vaginal discharge,10.0
+Amitriptyline,milnacipran,Drug withdrawal syndrome,2.0
+Guaifenesin,Simvastatin,Rosacea,10.0
+Amoxicillin,celecoxib,Iron deficiency,10.0
+Temazepam,zonisamide,Sleep disorder,10.0
+tiagabine,Clonidine,Multiple drug overdose,10.0
+Dalteparin,heparin,Gout,20.0
+pantoprazole,Metoclopramide,Tumour lysis syndrome,6.42857
+Famotidine,Buprenorphine,Rotator cuff syndrome,5.0
+Busulfan,Filgrastim,Mucosal ulceration,10.0
+pantoprazole,Insulin Glargine,Arteriosclerosis,9.28571
+travoprost,quetiapine,Delusion,10.0
+Enoxaparin,Cephalexin,Cardiac failure congestive,6.66667
+fosamprenavir,rabeprazole,Alanine aminotransferase increased,5.0
+Hydrochlorothiazide,lubiprostone,Eye swelling,5.0
+carvedilol,eptifibatide,White blood cell count increased,5.0
+Citalopram,Thalidomide,Osteopenia,60.0
+candesartan,Furosemide,Mycosis fungoides,3.33333
+valsartan,Esomeprazole,Hyperkalaemia,5.45455
+fluticasone,Bisoprolol,Sunburn,10.0
+Furosemide,Hydroxyzine,Pulse pressure decreased,20.0
+Azithromycin,tiotropium,Hip fracture,2.5
+Cyclophosphamide,mycophenolate mofetil,Jaw disorder,2.5
+Methotrexate,Trazodone,Loose tooth,15.0
+Labetalol,Quinine,Sinusitis,10.0
+romiplostim,Metoprolol,Formication,3.33333
+Megestrol,rofecoxib,Dyspepsia,20.0
+Oxycodone,nebivolol,Pancytopenia,8.0
+butalbital,Ketorolac,Orthostatic hypotension,5.0
+Orphenadrine,Citalopram,Sinusitis,10.0
+Pseudoephedrine,Hydrocodone,Pleuritic pain,20.0
+Sertraline,Nicorandil,Wound,5.0
+Meclizine,rofecoxib,Vitamin D deficiency,20.0
+Nortriptyline,Hydromorphone,Cardiac operation,10.0
+Betamethasone,imatinib,Dermatitis,10.0
+Doxazosin,Fentanyl,Muscular weakness,3.0
+Hydrochlorothiazide,pertuzumab,Influenza,5.0
+Morphine,adalimumab,Drug effect delayed,3.33333
+Citalopram,Ondansetron,Disability,6.25
+Lisinopril,Metoprolol,Oesophagitis haemorrhagic,2.5
+Dextromethorphan,telithromycin,Pain,5.0
+tofacitinib,Clonazepam,Chills,10.0
+Pseudoephedrine,duloxetine,Blood glucose decreased,3.75
+lamotrigine,Escitalopram,Morbid thoughts,5.0
+fluticasone,zoledronic acid,Aortic valve disease,6.66667
+Risedronate,Doxorubicin,Lung disorder,5.0
+Amlodipine,clorazepate,Ulnar nerve palsy,10.0
+Loperamide,Trazodone,Increased tendency to bruise,10.0
+Metolazone,varenicline,Myopathy,10.0
+Ondansetron,Doxorubicin,Bronchial hyperreactivity,15.0
+Dexamethasone,bicalutamide,Hypoproteinaemia,10.0
+ciclesonide,adalimumab,Pruritus,4.44444
+rizatriptan,Alprazolam,Gastritis,4.0
+Spironolactone,ranibizumab,Chest pain,3.75
+Metoclopramide,Levofloxacin,Ventricular hypokinesia,4.0
+methylnaltrexone,Lorazepam,Mental impairment,10.0
+pantoprazole,Simvastatin,Chorea,5.0
+Aspirin,Flecainide,Soft tissue disorder,10.0
+pioglitazone,Clonidine,Neuropathy peripheral,10.0
+Omeprazole,Thalidomide,Intervertebral disc degeneration,46.6667
+Morphine,Prednisone,Bone density increased,10.0
+Ondansetron,desloratadine,Abdominal pain,3.75
+Filgrastim,gemcitabine,Catheter related infection,10.0
+Topotecan,Alprazolam,Confusional state,6.66667
+donepezil,bicalutamide,Blood pressure increased,5.0
+Cephalexin,Promethazine,Abscess,11.4286
+Aspirin,clopidogrel,Pulmonary calcification,6.66667
+zolpidem,clopidogrel,Open wound,3.33333
+Aspirin,Aztreonam,Dizziness,2.0
+Metoprolol,Mifepristone,Dysphagia,5.0
+Hydrocodone,Propranolol,Cystitis,3.15789
+Furosemide,Dexamethasone,Early satiety,2.0
+Sertraline,Phenytoin,Hypovolaemia,10.0
+Warfarin,ruxolitinib,Pericardial effusion,20.0
+valsartan,prednisolone,Fluid overload,2.5
+tiotropium,Verapamil,Body height decreased,6.0
+Colchicine,rivaroxaban,Condition aggravated,2.5
+docetaxel,Levofloxacin,Staphylococcal sepsis,2.5
+tamsulosin,Metoprolol,Ataxia,3.33333
+Diphenhydramine,Escitalopram,Eye infection,5.0
+Desvenlafaxine,Pramipexole,Asthenia,5.55556
+Metformin,Morphine,Thrombotic microangiopathy,5.0
+Betamethasone,Fluocinonide,Speech disorder,5.0
+Esomeprazole,tamsulosin,Sinus tachycardia,4.11765
+Cephalexin,carvedilol,Angina pectoris,18.3333
+pantoprazole,Lorazepam,Hyperbilirubinaemia,5.0
+Simvastatin,Paroxetine,Thyroid neoplasm,4.54545
+irinotecan,cetuximab,Colorectal cancer,40.0
+bortezomib,Allopurinol,Tooth fracture,5.0
+Clindamycin,Atenolol,Injury,10.0
+Lisinopril,rizatriptan,Eye swelling,10.0
+Losartan,Promethazine,Aortic thrombosis,10.0
+zoledronic acid,Thalidomide,Bundle branch block right,16.6667
+Trimethoprim,Paroxetine,Multiple allergies,10.0
+atorvastatin,torsemide,Impaired self-care,5.0
+Amlodipine,Miconazole,Sepsis,7.5
+Guaifenesin,Buprenorphine,Toxicity to various agents,4.0
+Pilocarpine,gabapentin,Decreased appetite,5.0
+Sertraline,Amiodarone,Acute myeloid leukaemia,2.0
+Losartan,Doxazosin,Lacrimation increased,3.33333
