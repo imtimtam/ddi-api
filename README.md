@@ -1,6 +1,6 @@
 # Drug Interaction and Target Checker API
 
-A **FastAPI** backend service that checks for shared receptor targets and **drug-drug interactions (DDIs) with associated medical conditions and proportional reporting ratios (PRRs) using the TWOSIDES dataset between two drugs or ligands.  
+A **FastAPI** backend service that checks for shared receptor targets and **drug-drug interactions** (DDIs) with associated medical conditions and proportional reporting ratios (PRRs) using the TWOSIDES dataset between two drugs or ligands.  
 
 ## Features
 - **`/check_target`**: Returns whether two drugs share a biological target.  
@@ -53,7 +53,7 @@ A **FastAPI** backend service that checks for shared receptor targets and **drug
 
 **Response Example (http://127.0.0.1:8000/check_target/?drug1=asenapine&drug2=apomorphine):**
 
-```json
+```
 {
   "interaction": true,
   "target": "5-HT<sub>1A</sub> receptor"
@@ -72,7 +72,7 @@ A **FastAPI** backend service that checks for shared receptor targets and **drug
 
 **Response Example (http://127.0.0.1:8000/check_ddi/?drug1=aspirin&drug2=ibuprofen) (truncated):**
 
-```json
+```
 {
   "interaction": true,
   "conditions_and_prr": {
@@ -93,7 +93,7 @@ A **FastAPI** backend service that checks for shared receptor targets and **drug
     "Generalised anxiety disorder": 40,
     "Product used for unknown indication": 40,
     "Cardiorenal syndrome": 30,
-    // results truncated due to length
+    ...
   }
 }
 ```
