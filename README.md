@@ -1,6 +1,6 @@
 # Drug Interaction and Target Checker API
 
-A **FastAPI** backend service that checks for shared receptor targets and **drug-drug interactions** (DDIs) with associated medical conditions and proportional reporting ratios (PRRs) using the TWOSIDES dataset between two drugs or ligands.  
+A **FastAPI** backend service that checks for shared receptor targets and **drug-drug interactions** (DDIs) with associated medical conditions and proportional reporting ratios (PRRs) using the TWOSIDES dataset between two drugs or ligands.
 
 ## Features
 - **`/check_target`**: Returns whether two drugs share a biological target.  
@@ -9,11 +9,13 @@ A **FastAPI** backend service that checks for shared receptor targets and **drug
 - Preprocessing optimizations with frozensets for efficient drug-drug pair lookups.  
 
 ## Data Setup
-###### Full data files not included in repo due to size despite filtering. Add them to `data/` before running.
+###### Full data files not included in repo due to size despite filtering. Follow **Instructions** below for full set. A smaller test sample will be provided here.
 - Drug–Target interactions: `interactions.csv`  
 - Drug–Drug Interactions (DDIs): `TWOSIDES_filtered.csv` 
+#### Sample Data Instructions
+1. Change line 8 of `main.py` to `twosides_path = "data/sample/TWOSIDES_sample.csv"`.
 
-#### Instructions
+#### Full Data Instructions
 
 1. Download `nsides/TWOSIDES.csv.gz` from the **Data and Source** section on nsides.io.
 2. Move `TWOSIDES.csv.gz` to the `data/` folder.
