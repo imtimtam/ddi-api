@@ -109,5 +109,5 @@ This project is licensed under the MIT License.
 - **Guide to Pharmacology** – [https://www.guidetopharmacology.org](https://www.guidetopharmacology.org)  
   Provides information about drug targets and ligand interactions.
 
-- **TWOSIDES Dataset** (via nsides.io) – [https://www.nsidestudy.io](https://www.nsidestudy.io)  
+- **TWOSIDES Dataset** (via nsides.io) – [https://www.nsidestudy.io](https://nsides.io/)  
   Contains drug-drug interactions and associated adverse event data.
