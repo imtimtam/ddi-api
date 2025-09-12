@@ -25,7 +25,7 @@ A **FastAPI** backend service that checks for shared receptor targets and **drug
 
 **1. Clone and move to the repository**
 
-    git clone https://github.com/imtimtam/Drug-Interaction-Checker
+    git clone https://github.com/imtimtam/ddi-api
 
 **2. Install dependencies**
 
