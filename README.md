@@ -5,8 +5,9 @@ A **FastAPI** backend service that checks for shared receptor targets and **drug
 ## Features
 - **`/check_target`**: Returns whether two drugs share a biological target.  
 - **`/check_ddi`**: Returns known interactions between two drugs (condition → PRR mapping).  
-- Case-insensitive drug concept name matching.  
-- Preprocessing optimizations with frozensets for efficient drug-drug pair lookups.  
+- **`/full_interactions`**: Returns shared biological target and known interactions between two drugs.  
+- Case-insensitive and whitespace-insensitive drug concept name matching.  
+- Preprocessing optimizations with frozenset dictionaries for efficient drug-drug pair lookups.  
 
 ## Data Setup
 ###### Full data files not included in repo due to size despite filtering. Follow **Instructions** below for full set. A smaller test sample will be provided here.
@@ -43,7 +44,7 @@ A **FastAPI** backend service that checks for shared receptor targets and **drug
 
 ![Swagger UI](images/DDIapi.png)
 
-**1. Check shared target**
+**1. Check shared targets**
 
 **`GET /check_target/`**
 
@@ -62,9 +63,47 @@ A **FastAPI** backend service that checks for shared receptor targets and **drug
 }
 ```
 
-**2. Check drug-drug interaction**
+**2. Check drug-drug interactions**
 
 **`GET /check_ddi/`**
+
+**Query Parameters:**
+
+- **drug1** – First drug name
+
+- **drug2** – Second drug name
+
+**Response Example (http://127.0.0.1:8000/check_ddi/?drug1=aspirin&drug2=ibuprofen) (truncated):**
+
+```
+{
+  "interaction": true,
+  "conditions_and_prr": {
+    "Rectocele": 160,
+    "Perforated ulcer": 120,
+    "Oesophagitis haemorrhagic": 90,
+    "Joint contracture": 60,
+    "Cervicobrachial syndrome": 60,
+    "Intervertebral disc space narrowing": 45,
+    "Glomerulonephritis membranous": 45,
+    "Bone marrow oedema": 40,
+    "Right atrial dilatation": 40,
+    "Hypoaldosteronism": 40,
+    "Dental discomfort": 40,
+    "Gingival erosion": 40,
+    "Cardioactive drug level above therapeutic": 40,
+    "Cerebral artery thrombosis": 40,
+    "Generalised anxiety disorder": 40,
+    "Product used for unknown indication": 40,
+    "Cardiorenal syndrome": 30,
+    ...
+  }
+}
+```
+
+**3. Check full drug-drug interactions with shared receptor targets**
+
+**`GET /full_interactions/`**
 
 **Query Parameters:**
 
