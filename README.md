@@ -72,29 +72,29 @@ A **FastAPI** backend service that checks for shared receptor targets and **drug
 
 - **drug2** – Second drug name
 
-**Response Example (http://127.0.0.1:8000/check_ddi/?drug1=aspirin&drug2=ibuprofen) (truncated):**
+**Response Example (http://127.0.0.1:8000/full_interactions/?drug1=Diphenhydramine&drug2=Amitriptyline) (truncated):**
 
 ```
 {
   "interaction": true,
+  "targets": [
+    "H<sub>1</sub> receptor"
+  ],
   "conditions_and_prr": {
-    "Rectocele": 160,
-    "Perforated ulcer": 120,
-    "Oesophagitis haemorrhagic": 90,
-    "Joint contracture": 60,
-    "Cervicobrachial syndrome": 60,
-    "Intervertebral disc space narrowing": 45,
-    "Glomerulonephritis membranous": 45,
-    "Bone marrow oedema": 40,
-    "Right atrial dilatation": 40,
-    "Hypoaldosteronism": 40,
-    "Dental discomfort": 40,
-    "Gingival erosion": 40,
-    "Cardioactive drug level above therapeutic": 40,
-    "Cerebral artery thrombosis": 40,
-    "Generalised anxiety disorder": 40,
-    "Product used for unknown indication": 40,
-    "Cardiorenal syndrome": 30,
+    "Onychomycosis": 70,
+    "Compression fracture": 70,
+    "Diverticulum intestinal": 60,
+    "Osteolysis": 60,
+    "Osteopenia": 60,
+    "Kyphosis": 60,
+    "Exposure via ingestion": 55,
+    "Hypertensive heart disease": 50,
+    "Diabetes mellitus non-insulin-dependent": 50,
+    "Dental caries": 50,
+    "Cardiotoxicity": 40,
+    "Retinopathy": 40,
+    "Protein total increased": 40,
+    "Cervical spinal stenosis": 40,
     ...
   }
 }
