@@ -1,5 +1,6 @@
 import pandas as pd
 from fastapi import FastAPI, Query
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from typing import Optional
 
@@ -9,8 +10,15 @@ twosides_path = "data/TWOSIDES_filtered.csv"
 target_df = pd.read_csv(target_path, skiprows=1)
 twosides_df = pd.read_csv(twosides_path)
 
-# Initialize API
+# Initialize API and allow requests
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Or ["http://127.0.0.1:5500"] for only Live Server
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # RESPONSE MODELS
 class TargetResponse(BaseModel):
