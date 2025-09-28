@@ -2,10 +2,17 @@
 
 A **FastAPI** backend service that checks for shared receptor targets and **drug-drug interactions** (DDIs) with associated medical conditions and proportional reporting ratios (PRRs) using the TWOSIDES dataset between two drugs or ligands.
 
+<p align="center">
+  <img src="./images/screenshots/updated_webpage-search.png" alt="DDI Frontend" />
+  <br>
+  <em>Example integration with the web-based frontend (see <a href="https://github.com/imtimtam/ddi-web">ddi-web</a>).</em>
+</p>
+
 ## Features
 - **`/check_target`**: Returns whether two drugs share a biological target.  
 - **`/check_ddi`**: Returns known interactions between two drugs (condition → PRR mapping).  
-- **`/full_interactions`**: Returns shared biological target and known interactions between two drugs.  
+- **`/full_interactions`**: Returns shared biological target and known interactions between two drugs. 
+ - **`/drugs`**: Returns the full searchable list of drug names (used for autocomplete).  
 - Case-insensitive and whitespace-insensitive drug concept name matching.  
 - Preprocessing optimizations with frozenset dictionaries for efficient drug-drug pair lookups.  
 
