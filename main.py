@@ -34,6 +34,9 @@ class CombinedResponse(BaseModel):
     targets: Optional[list[str]] = Field(default=None, description="Shared receptor target(s) of drugs")
     conditions_and_prr: Optional[dict[str, float]] = Field(default=None, description="Condition : PRR dictionary")
 
+class DrugListResponse(BaseModel):
+    drugs: list[str]
+
 # PREPROCESSING
 # Target Preprocessing
 target_df['Ligand'] = target_df['Ligand'].str.strip().str.lower()
@@ -55,6 +58,10 @@ twosides_df["drug_2_concept_name"] = twosides_df["drug_2_concept_name"].str.stri
 
 twosides_df["pair"] = twosides_df.apply(lambda x: frozenset([x["drug_1_concept_name"], x["drug_2_concept_name"]]), axis=1)
 twosides_dict = (twosides_df.groupby("pair")[["condition_concept_name", "PRR"]].apply(lambda x: dict(zip(x["condition_concept_name"], x["PRR"]))).to_dict())
+
+# DrugList Preprocessing
+drugs_list = pd.concat([twosides_df["drug_1_concept_name"], twosides_df["drug_2_concept_name"]]).unique()
+drugs_list = sorted(list(drugs_list))
 
 # ENDPOINTS
 # Return shared receptor target(s) if drugs bind to the same target
@@ -97,3 +104,7 @@ def check_combined(drug1: str = Query(..., min_length=2, max_length=50, descript
         return CombinedResponse(interaction=True, targets=target, conditions_and_prr=sorted_conditions_and_prr)
     
     return CombinedResponse(interaction=False)
+
+@app.get('/drugs/', response_model=DrugListResponse)
+def get_drugs():
+    return DrugListResponse(drugs=drugs_list)
