@@ -3,7 +3,7 @@
 A **FastAPI** backend service that checks for shared receptor targets and **drug-drug interactions** (DDIs) with associated medical conditions and proportional reporting ratios (PRRs) using the TWOSIDES dataset between two drugs or ligands.
 
 <p align="center">
-  <img src="./images/updated_webpage-search.png" alt="DDI Frontend" />
+  <img src="./images/updated_webpage.png" alt="DDI Frontend" />
   <br>
   <em>Example integration with the web-based frontend (see <a href="https://github.com/imtimtam/ddi-web">ddi-web</a>).</em>
 </p>
